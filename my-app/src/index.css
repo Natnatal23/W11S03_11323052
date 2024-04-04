@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #8f4949;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px pink;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #de0f39;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e41212;
+}
+
+footer {
+  background-color: #e98b8b;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
